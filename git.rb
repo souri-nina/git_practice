@@ -3,3 +3,8 @@ module Git
     puts ' git #{cmd} -h`
   end
 end
+
+  def self.config
+    puts 'git config -l`
+    end
+  end
